@@ -1,0 +1,34 @@
+// base
+@import './utils/variables';
+@import './base/reset';
+@import './base/base';
+@import './utils/v-hidden';
+@import './components/container';
+@import './utils/placeholders';
+// header
+@import './components/header';
+@import './components/logo';
+@import './components/navigation';
+@import './components/authentication'; 
+
+// main
+@import './components/hero';
+@import './components/features';
+@import './components/works';
+@import './components/team';
+@import './components/socials';
+@import './components/clients';
+// footer
+@import './components/footer';
+@import './components/footer-nav';
+@import './components/footer-networks';
+@import './components/footer-form';
+// portfolio
+@import './components/button-list';
+@import './components/projects';
+@import './components/projects-overlay';
+// modal
+@import './components/modal';
+@import './components/modal-form';
+// mobile menu
+@import './components/mobile-menu';
