@@ -81,7 +81,7 @@
 
 // auth
 .mobile-auth {
-    margin-bottom: 64px;
+  margin-bottom: 64px;
 }
 
 .mobile-auth__item {
@@ -102,51 +102,50 @@
 }
 
 .mobile-auth__link--mail {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
-    letter-spacing: 0.02em;
-    
-    color: #757575;
- }
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
 
 // networks
 .networks {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .networks__item {
   position: relative;
 }
 
-.networks__link::after {
-  content: "";
-  position: absolute;
-  width: 22px;
-  height: 1px;
-  top: 0;
-  right: 0;
-  background-color: rgba(33, 33, 33, 0.2);
-  transform: translateX(100%) translateY(100%) rotate(90deg);
-}
 
 .networks__link {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height, or 122% */
-
   letter-spacing: 0.02em;
   text-decoration: none;
-
   color: #2196f3;
 }
 
+.networks__link::after {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 1px;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(33, 33, 33, 0.2);
+    transform: translateX(100%) translateY(-11px) rotate(90deg);
+}
+
 .menu-icon {
-    fill: currentColor
+  fill: currentColor;
 }
 
 .menu-icon:hover {
-    fill: var(--accent-color);
+  fill: var(--accent-color);
 }
