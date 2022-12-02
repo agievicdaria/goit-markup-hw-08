@@ -16,11 +16,29 @@
       margin-right: 0;
     }
 
-    @media screen and (min-width: 480px) and (max-width: 767px) {
+    @media screen and (max-width: 349px) {
+      &:nth-child(3), &:nth-child(4), &:nth-child(5) {
+        margin-top: 15px;
+      }
+    }
+
+    @media screen and (min-width: 350px) and (max-width: 457px) {
       &:nth-child(4), &:nth-child(5) {
         margin-top: 15px;
       }
     }
+
+    @media screen and (min-width: 458px) and (max-width: 479px) {
+     &:nth-child(5) {
+        margin-top: 15px;
+      }
+    }
+
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+      &:nth-child(4), &:nth-child(5) {
+         margin-top: 15px;
+       }
+     }
   }
   
   .button-list__btn {
