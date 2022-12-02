@@ -22,8 +22,6 @@
   }
   
   .projects-list__item {
-    margin-left: 30px;
-    margin-top: 30px;
   
     background: var(--additional-color);
   
@@ -36,7 +34,7 @@
     }
 
     &:not(:last-child) {
-      @media screen and (min-width: 480px) and (max-width: 767px) {
+      @media screen and (max-width: 767px) {
         margin-bottom: 30px;
       }
     }
@@ -47,6 +45,8 @@
 
     @media screen and (min-width: 768px) {
       flex-basis: calc((100% / 2 - 30px));
+      margin-left: 30px;
+      margin-top: 30px;
     }
 
     @media screen and (min-width: 1200px) {
