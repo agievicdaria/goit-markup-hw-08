@@ -963,6 +963,7 @@ img {
 @media screen and (max-width: 767px) {
   .button-list {
     gap: 8px;
+    padding-right: 50px;
   }
 }
 @media screen and (min-width: 768px) {
