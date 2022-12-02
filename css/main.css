@@ -1370,8 +1370,8 @@ img {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  width: 16px;
-  height: 15px;
+  min-width: 16px;
+  min-height: 15px;
   border: 1px solid var(--main-color);
   border-radius: 2px;
   outline: transparent;
