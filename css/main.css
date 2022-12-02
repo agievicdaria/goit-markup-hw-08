@@ -432,6 +432,11 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
 }
+@media screen and (max-width: 767px) {
+  .features__label {
+    text-align: center;
+  }
+}
 
 .features__description {
   font-size: 14px;
@@ -1537,7 +1542,7 @@ img {
   color: #2196f3;
 }
 
-.networks__link::after {
+.networks__item:not(:last-child)::after {
   content: "";
   position: absolute;
   width: 22px;
